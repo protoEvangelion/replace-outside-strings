@@ -1,4 +1,4 @@
-import { replace } from './api';
+import { replace } from './api'
 
 test('replace function replaces text with new text', () => {
 	const content = `
@@ -8,16 +8,16 @@ test('replace function replaces text with new text', () => {
 			@include transition(opacity 1s $navBezier);
 			@include transition(yolo 3s ballin);
 		}
-	`;
+	`
 
 	const argv = {
 		s1: '@include transition\\(',
 		r1: 'transition: ',
 		s2: '\\);',
 		r2: ';',
-	};
+	}
 
-	console.log('replace(content, argv)', replace(content, argv));
+	console.log('replace(content, argv)', replace(content, argv))
 
-	expect(replace(content, argv)).toMatchSnapshot();
-});
+	expect(replace(content, argv)).toMatchSnapshot()
+})
