@@ -1,0 +1,38 @@
+{
+  "name": "utilities",
+  "version": "1.0.0",
+  "description": "helpful npm utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/protoEvangelion/utilities.git"
+  },
+  "keywords": [
+    "utilities",
+    "strings"
+  ],
+  "author": "Ryan Garant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/protoEvangelion/utilities/issues"
+  },
+  "homepage": "https://github.com/protoEvangelion/utilities#readme",
+  "dependencies": {
+    "commander": "^2.19.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.10",
+    "@types/node": "^10.12.12",
+    "jest": "^23.6.0",
+    "lerna": "^3.5.1",
+    "prettier": "^1.15.3",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-microsoft-contrib": "^6.0.0",
+    "typescript": "^3.2.2"
+  }
+}

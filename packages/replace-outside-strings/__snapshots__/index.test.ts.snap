@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`replace function replaces text with new text 1`] = `
+"
+		.osb-nav-overlay {
+			z-index: 0;
+
+			transition: opacity 1s $navBezier;
+			transition: yolo 3s ballin;
+		}
+	"
+`;

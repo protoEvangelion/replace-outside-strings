@@ -1,0 +1,15 @@
+{
+  "bin": {
+    "replace-outside-strings": "cli.js"
+  },
+  "name": "replace-outside-strings",
+  "version": "1.0.0",
+  "description": "A CLI tool that will replace outside strings that you provide.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Ryan Garant",
+  "license": "MIT"
+}
