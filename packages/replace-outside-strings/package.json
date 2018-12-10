@@ -3,6 +3,7 @@
     "replace-outside-strings": "lib/cli.js"
   },
   "repository": {
+    "type": "git",
     "url": "https://github.com/protoEvangelion/utilities/tree/master/packages/replace-outside-strings"
   },
   "name": "replace-outside-strings",

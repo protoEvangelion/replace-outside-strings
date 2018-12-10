@@ -95,4 +95,4 @@ console.log(newContent)
 
 ## License
 
-MIT © [Ryan Garant](rhino.codes)
+MIT © [Ryan Garant](https://rhino.codes)
