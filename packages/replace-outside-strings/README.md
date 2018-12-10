@@ -1,6 +1,8 @@
 # Replace Outside Strings
 
-> CLI tool that will replace outside strings that you provide.
+> A CLI tool that will replace outside strings that you provide and keep whatever is between the two strings.
+
+![demo](../../assets/replace-outside-strings.png)
 
 - **CLI usage**:
 
@@ -19,7 +21,8 @@ const newContent = replace(fileContent, strings)
 	- [CLI](#cli)
 		- [Examples](#examples)
 	- [API](#api)
-		- [How globs work](#how-globs-work)
+	- [How globs work](#how-globs-work)
+	- [License](#license)
 
 ## Install
 
@@ -84,6 +87,12 @@ console.log(newContent)
 // Will return false if nothing happened.- [Replace Outside Strings](#replace-outside-strings)
 ```
 
-### How globs work
+## How globs work
 
+- When passing a directory, make sure you understand globs
 - https://www.npmjs.com/package/glob#glob-primer
+
+
+## License
+
+MIT © [Ryan Garant](rhino.codes)
