@@ -2,8 +2,6 @@
   "name": "utilities",
   "version": "1.0.0",
   "description": "helpful npm utilities",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,9 +19,7 @@
     "url": "https://github.com/protoEvangelion/utilities/issues"
   },
   "homepage": "https://github.com/protoEvangelion/utilities#readme",
-  "dependencies": {
-    "commander": "^2.19.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/jest": "^23.3.10",
     "@types/node": "^10.12.12",

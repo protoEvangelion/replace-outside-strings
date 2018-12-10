@@ -17,7 +17,5 @@ test('replace function replaces text with new text', () => {
 		r2: ';',
 	}
 
-	console.log('replace(content, argv)', replace(content, argv))
-
-	expect(replace(content, argv)).toMatchSnapshot()
+	expect(replace(content, argv)).toBe(1)
 })

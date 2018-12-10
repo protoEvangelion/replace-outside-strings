@@ -1,16 +1,24 @@
 {
   "bin": {
-    "replace-outside-strings": "cli.js"
+    "replace-outside-strings": "lib/cli.js"
+  },
+  "repository": {
+    "url": "https://github.com/protoEvangelion/utilities/tree/master/packages/replace-outside-strings"
   },
   "name": "replace-outside-strings",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A CLI tool that will replace outside strings that you provide.",
-  "main": "index.js",
+  "main": "lib/api.js",
+  "types": "typings/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --outDir lib",
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": ["replace", "strings", "regex", "glob", "outside", "cli", "api"],
   "author": "Ryan Garant",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "globby": "^8.0.1"
+  }
 }

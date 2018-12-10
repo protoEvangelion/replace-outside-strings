@@ -1,25 +1,32 @@
 {
 	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"alwaysStrict": true,
 		"declaration": true,
 		"declarationDir": "lib",
-		"outDir": "lib",
-		"target": "es6",
+		"forceConsistentCasingInFileNames": true,
+		"importHelpers": true,
 		"module": "commonjs",
 		"moduleResolution": "node",
-		"allowSyntheticDefaultImports": true,
-		"importHelpers": true,
-		"alwaysStrict": true,
-		"sourceMap": true,
-		"forceConsistentCasingInFileNames": true,
 		"noFallthroughCasesInSwitch": true,
+		"noImplicitAny": false,
 		"noImplicitReturns": true,
+		"noImplicitThis": false,
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
-		"noImplicitAny": false,
-		"noImplicitThis": false,
-		"strictNullChecks": false
+		"outDir": "lib",
+		"sourceMap": true,
+		"strictNullChecks": false,
+		"target": "es6"
 	},
 	"include": [
 		"packages/**/*.ts"
+	],
+	"exclude": [
+		"lib",
+		"node_modules",
+		"__snapshots__",
+		"**/*.test*",
+		"interfac*.ts"
 	]
 }
