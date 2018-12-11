@@ -1,24 +1,24 @@
 {
-	"compilerOptions": {
-		"allowSyntheticDefaultImports": true,
-		"alwaysStrict": true,
-		"declaration": true,
-		"declarationDir": "lib",
-		"forceConsistentCasingInFileNames": true,
-		"importHelpers": true,
-		"module": "commonjs",
-		"moduleResolution": "node",
-		"noFallthroughCasesInSwitch": true,
-		"noImplicitAny": false,
-		"noImplicitReturns": true,
-		"noImplicitThis": false,
-		"noUnusedLocals": true,
-		"noUnusedParameters": true,
-		"outDir": "lib",
-		"sourceMap": true,
-		"strictNullChecks": false,
-		"target": "es6"
-	},
-	"include": ["src/**/*.ts"],
-	"exclude": ["lib", "node_modules", "__snapshots__", "**/*.test*"]
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "declaration": true,
+    "declarationDir": "lib",
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "strictNullChecks": false,
+    "target": "es6"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["lib", "node_modules", "__snapshots__", "**/*.test*"]
 }

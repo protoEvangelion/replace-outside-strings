@@ -1,83 +1,83 @@
 {
-	"author": {
-		"name": "Ryan Garant",
-		"web": "https://rhino.codes"
-	},
-	"bin": {
-		"replace-outside-strings": "lib/cli.js"
-	},
-	"main": "lib/api.js",
-	"name": "replace-outside-strings",
-	"version": "0.1.0",
-	"description": "A CLI tool that will replace outside strings that you provide.",
-	"scripts": {
-		"build": "tsc --outDir lib",
-		"test": "jest",
-		"test:watch": "jest --watch",
-		"test:ci": "jest --coverage lib && codecov"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/protoEvangelion/utilities/tree/master/packages/replace-outside-strings"
-	},
-	"keywords": [
-		"replace",
-		"strings",
-		"regex",
-		"glob",
-		"outside",
-		"cli",
-		"api"
-	],
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/protoEvangelion/replace-outside-strings/issues"
-	},
-	"homepage": "https://github.com/protoEvangelion/replace-outside-strings#readme",
-	"dependencies": {
-		"commander": "^2.19.0",
-		"globby": "^8.0.1"
-	},
-	"devDependencies": {
-		"@types/jest": "^23.3.10",
-		"@types/node": "^10.12.12",
-		"husky": "^1.2.0",
-		"jest": "^23.6.0",
-		"prettier": "^1.15.3",
-		"pretty-quick": "^1.8.0",
-		"ts-jest": "^23.10.5",
-		"tslint": "^5.11.0",
-		"tslint-config-prettier": "^1.17.0",
-		"typescript": "^3.2.2"
-	},
-	"husky": {
-		"hooks": {
-			"pre-commit": "pretty-quick --staged"
-		}
-	},
-	"config": {
-		"commitizen": {
-			"path": "node_modules/cz-conventional-changelog"
-		}
-	},
-	"release": {
-		"branch": "master",
-		"debug": true,
-		"prepare": [
-			"@semantic-release/npm",
-			{
-				"path": "@semantic-release/git",
-				"assets": [
-					"package.json",
-					"lib/**/*.js"
-				],
-				"message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-			}
-		],
-		"publish": [
-			"@semantic-release/github",
-			"@semantic-release/npm"
-		]
-	},
-	"types": "typings/index.d.ts"
+  "author": {
+    "name": "Ryan Garant",
+    "web": "https://rhino.codes"
+  },
+  "bin": {
+    "replace-outside-strings": "lib/cli.js"
+  },
+  "main": "lib/api.js",
+  "name": "replace-outside-strings",
+  "version": "0.1.0",
+  "description": "A CLI tool that will replace outside strings that you provide.",
+  "scripts": {
+    "build": "tsc --outDir lib",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:ci": "jest --coverage lib && codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/protoEvangelion/utilities/tree/master/packages/replace-outside-strings"
+  },
+  "keywords": [
+    "replace",
+    "strings",
+    "regex",
+    "glob",
+    "outside",
+    "cli",
+    "api"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/protoEvangelion/replace-outside-strings/issues"
+  },
+  "homepage": "https://github.com/protoEvangelion/replace-outside-strings#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "globby": "^8.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.10",
+    "@types/node": "^10.12.12",
+    "husky": "^1.2.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.15.3",
+    "pretty-quick": "^1.8.0",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.17.0",
+    "typescript": "^3.2.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "release": {
+    "branch": "master",
+    "debug": true,
+    "prepare": [
+      "@semantic-release/npm",
+      {
+        "path": "@semantic-release/git",
+        "assets": [
+          "package.json",
+          "lib/**/*.js"
+        ],
+        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+      }
+    ],
+    "publish": [
+      "@semantic-release/github",
+      "@semantic-release/npm"
+    ]
+  },
+  "types": "typings/index.d.ts"
 }

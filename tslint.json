@@ -4,26 +4,26 @@
  */
 
 {
-	"extends": ["tslint:recommended", "tslint-config-prettier"],
-	"rules": {
-		"export-name": false,
-		"non-literal-require": false,
-		"no-console": false,
-		"no-floating-promises": false,
-		"no-implicit-dependencies": false,
-		"no-relative-imports": false,
-		"no-unsafe-any": false,
-		"no-void-expression": false,
-		"non-literal-fs-path": false,
-		"prefer-type-cast": false,
-		"promise-function-async": false,
-		"strict-boolean-expressions": [
-			true,
-			"allow-null-union",
-			"allow-undefined-union",
-			"allow-string",
-			"allow-number"
-		],
-		"typedef": [true, "parameter", "property-declaration", "member-variable-declaration"]
-	}
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "rules": {
+    "export-name": false,
+    "non-literal-require": false,
+    "no-console": false,
+    "no-floating-promises": false,
+    "no-implicit-dependencies": false,
+    "no-relative-imports": false,
+    "no-unsafe-any": false,
+    "no-void-expression": false,
+    "non-literal-fs-path": false,
+    "prefer-type-cast": false,
+    "promise-function-async": false,
+    "strict-boolean-expressions": [
+      true,
+      "allow-null-union",
+      "allow-undefined-union",
+      "allow-string",
+      "allow-number"
+    ],
+    "typedef": [true, "parameter", "property-declaration", "member-variable-declaration"]
+  }
 }

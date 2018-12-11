@@ -7,7 +7,7 @@
 - **CLI usage**:
 
 ```bash
-replace-outside-strings -d "/**/*.scss" --s1 "@include transform\(" --r1 "transform: " --s2 "\);" --r2 ";"
+replace-outside-strings -d "*.scss" --s1 "@include transform\(" --r1 "transform: " --s2 "\);" --r2 ";"
 ```
 
 - **API usage**:
@@ -16,7 +16,16 @@ replace-outside-strings -d "/**/*.scss" --s1 "@include transform\(" --r1 "transf
 const newContent = replace(fileContent, strings)
 ```
 
-- [Replace Outside Strings](#replace-outside-strings) - [Install](#install) - [CLI](#cli) - [Examples](#examples) - [API](#api) - [How globs work](#how-globs-work) - [License](#license)
+# Table of Contents
+
+- [Replace Outside Strings](#replace-outside-strings)
+- [Table of Contents](#table-of-contents)
+  - [Install](#install)
+  - [CLI](#cli)
+    - [Examples](#examples)
+  - [API](#api)
+  - [How globs work](#how-globs-work)
+  - [License](#license)
 
 ## Install
 
@@ -70,15 +79,15 @@ const { replace } = require('replace-outside-strings')
 const newContent = replace(fileContent, strings)
 // 2nd arg in shape of:
 /* interface strings {
- 	s1: string
- 	s2: string
- 	r1: string
- 	r2: string
+     s1: string
+     s2: string
+     r1: string
+     r2: string
 */ }
 
 console.log(newContent)
 // Will return text if replace occurred.
-// Will return false if nothing happened.- [Replace Outside Strings](#replace-outside-strings)
+// Will return false if nothing happened.
 ```
 
 ## How globs work
