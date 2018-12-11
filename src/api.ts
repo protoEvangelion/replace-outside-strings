@@ -1,4 +1,4 @@
-import { IArgs } from './typings'
+import { IArgs } from '../typings'
 
 export function replace(contents: string, strings: IArgs): false | string {
 	const pattern = `(${strings.s1})(.*)(${strings.s2})`

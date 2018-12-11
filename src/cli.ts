@@ -3,8 +3,8 @@
 import * as program from 'commander'
 import * as fs from 'fs'
 import * as globby from 'globby'
+import { IArgs } from '../typings'
 import { replace } from './api'
-import { IArgs } from './typings'
 
 program
 	.option('-f, --file [path]', '[path] of file you want to replace')

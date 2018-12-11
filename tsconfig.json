@@ -19,14 +19,6 @@
 		"strictNullChecks": false,
 		"target": "es6"
 	},
-	"include": [
-		"packages/**/*.ts"
-	],
-	"exclude": [
-		"lib",
-		"node_modules",
-		"__snapshots__",
-		"**/*.test*",
-		"interfac*.ts"
-	]
+	"include": ["src/**/*.ts"],
+	"exclude": ["lib", "node_modules", "__snapshots__", "**/*.test*"]
 }

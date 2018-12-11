@@ -2,7 +2,7 @@
 
 > A CLI tool that will replace outside strings that you provide and keep whatever is between the two strings.
 
-![demo](../../assets/replace-outside-strings.png)
+![demo](../assets/replace-outside-strings.png)
 
 - **CLI usage**:
 
