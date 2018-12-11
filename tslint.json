@@ -4,10 +4,7 @@
  */
 
 {
-	"extends": [
-		"tslint-microsoft-contrib",
-		"tslint-config-prettier"
-	],
+	"extends": ["tslint:recommended", "tslint-config-prettier"],
 	"rules": {
 		"export-name": false,
 		"non-literal-require": false,
@@ -27,11 +24,6 @@
 			"allow-string",
 			"allow-number"
 		],
-		"typedef": [
-			true,
-			"parameter",
-			"property-declaration",
-			"member-variable-declaration"
-		]
+		"typedef": [true, "parameter", "property-declaration", "member-variable-declaration"]
 	}
 }

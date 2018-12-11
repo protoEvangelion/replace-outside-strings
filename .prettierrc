@@ -4,11 +4,5 @@
 	"singleQuote": true,
 	"useTabs": true,
 	"tabWidth": 2,
-	"trailingComma": "es5",
-	"overrides": [{
-		"files": "*.scss",
-		"options": {
-			"singleQuote": false
-		}
-	}]
+	"trailingComma": "es5"
 }
