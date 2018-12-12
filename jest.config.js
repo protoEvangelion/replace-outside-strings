@@ -12,5 +12,5 @@ module.exports = {
   },
   preset: 'ts-jest',
   testEnvironment: 'node',
-  testPathIgnorePatterns: ['/node_modules/', '/__fixtures__/'],
+  testMatch: ['<rootDir>/__tests__/?(*.)+(spec|test).ts?(x)'],
 }

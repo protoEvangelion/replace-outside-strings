@@ -2,9 +2,8 @@ import * as child_process from 'child_process'
 
 test('check if cli works end to end', () => {
   const result = child_process.spawnSync(
-    'npx',
+    'ts-node',
     [
-      'ts-node',
       'src/cli.ts',
       '-f',
       '__tests__/__fixtures__/index.ts',
