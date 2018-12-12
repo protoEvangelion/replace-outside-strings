@@ -8,7 +8,7 @@
   },
   "main": "lib/api.js",
   "name": "replace-outside-strings",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A CLI tool that will replace outside strings that you provide.",
   "scripts": {
     "build": "tsc --outDir lib",
