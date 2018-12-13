@@ -1,23 +1,14 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "alwaysStrict": true,
     "declaration": true,
     "declarationDir": "lib",
-    "forceConsistentCasingInFileNames": true,
-    "importHelpers": true,
+    "lib": ["es2017", "es2015", "dom", "es6"],
     "module": "commonjs",
-    "moduleResolution": "node",
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitAny": false,
-    "noImplicitReturns": true,
-    "noImplicitThis": false,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
     "outDir": "lib",
-    "sourceMap": true,
-    "strictNullChecks": false,
-    "target": "es6"
+    "sourceMap": false,
+    "strict": true,
+    "target": "es5",
+    "noImplicitAny": false
   },
   "include": ["src/**/*.ts"],
   "exclude": ["lib", "node_modules", "__snapshots__", "**/*.test*"]
