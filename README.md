@@ -1,5 +1,7 @@
 # Replace Outside Strings
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/protoEvangelion/replace-outside-strings.svg)](https://greenkeeper.io/)
+
 > A CLI tool that will replace outside strings that you provide and keep whatever is between the two strings.
 
 ![demo](assets/replace-outside-strings.png)
