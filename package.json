@@ -50,7 +50,7 @@
     "husky": "^2.0.0",
     "jest": "^23.6.0",
     "prettier": "^1.15.3",
-    "pretty-quick": "^1.8.0",
+    "pretty-quick": "^1.11.1",
     "semantic-release": "^15.12.5",
     "ts-jest": "^23.10.5",
     "ts-node": "^8.0.3",
